@@ -20,7 +20,9 @@ public class Program {
                 break;
             }
         }
-        if (isPrime) count++;
+        if (isPrime) {
+            count++;
+        }
         System.out.println(isPrime + " " + count);
     }
 }
